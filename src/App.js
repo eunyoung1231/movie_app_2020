@@ -11,10 +11,10 @@ import Potato from './Potato'
 // }
 
 
-function Food({name, picture}) {
+function Food({name, picture}) {  // Food는 함수형 Component임. 함수형 Component는 return이 꼭 있어야 함
   return (
     <div>
-      <h2>I love {name}</h2>
+      <h2>I love {name}~</h2>
       <img src={picture} alt={name} />
     </div>
   )
